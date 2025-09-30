@@ -1,0 +1,13 @@
+congress,chamber,icpsr,state_icpsr,district_code,state_abbrev,party_code,occupancy,last_means,bioname,bioguide_id,born,died,dim1,dim2,log_likelihood,geo_mean_probability,number_of_votes,number_of_errors,conditional,r
+2,Senate,791,48,0,SC,100,0,1,"BLEASE, Coleman Livingston",M000595,1868,1942,-0.934,-0.357,-93.65825,0.719,284,36,,5
+2,House,9761,48,1,SC,100,2,2,"WALLACE, Daniel",M000593,1801,1859,-0.924,-0.381,-69.65642,0.743,235,34,,5
+2,House,9761,48,1,SC,100,0,1,"WALLACE, Daniel",M000596,1801,1859,-0.924,-0.381,-168.05231,0.727,527,84,,5
+2,House,9761,48,1,SC,100,0,1,"WALLACE, Daniel",y78,1801,1859,-0.924,-0.381,-169.87709,0.629,367,92,,5
+2,House,1528,3,17,MA,1,0,1,"CARR, James",ju78,1777,1818,-0.921,0.255,-26.93917,0.492,38,19,,5
+2,House,5736,47,6,NC,100,1,1,"LOCKHART, James Alexander",L000391,1850,1905,0.1,-0.383,-10.68608,0.789,45,5,,5
+1,House,6377,48,4,SC,100,2,2,"McQUEEN, John",M000591,1804,1867,-0.912,-0.41,-17.62403,0.783,72,9,,5
+1,House,6377,48,4,SC,100,0,1,"McQUEEN, John",M000592,1804,1867,0.3,-0.41,-181.13615,0.709,526,91,,5
+1,House,6377,48,4,SC,100,0,1,"McQUEEN, John",M000593,1804,1867,-0.912,-0.41,-135.85557,0.638,302,68,,5
+1,House,6377,48,1,SC,100,0,1,"McQUEEN, John",M000594,1804,1867,-0.912,-0.41,-65.84203,0.796,288,34,,5
+1,House,6377,48,1,SC,100,0,1,"McQUEEN, John",M000595,1804,1867,0.6,-0.41,-109.50493,0.823,562,34,,5
+1,House,6377,48,1,SC,100,0,1,"McQUEEN, John",M000596,1804,1867,-0.912,-0.41,-130.63705,0.751,457,64,,5

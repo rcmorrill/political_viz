@@ -1,0 +1,183 @@
+html,body,h1,h2,h3,h4,h5,p,div,a,ul,li,section{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+
+/* Basic layout */
+/* Ignore this */
+section{
+	margin:20px 0;
+	padding:20px 0;
+	clear:both;
+	border-bottom:1px solid rgb(200,200,200);
+}
+header{
+	margin:20px 0;
+}
+
+
+.container .canvas{
+	margin-left:10%;
+	margin-right:10%;
+	height: 800px;
+	background: none;
+}
+
+/*.plot{
+    width:24%;
+    height:200px;
+    float:left;
+    background: none;
+    border: solid 1px white;
+}*/
+
+
+
+  .axis .tick line{
+    stroke:rgb(100,100,100);
+    stroke-width:1px;
+  }
+
+  .domain{
+    fill:none;
+}
+
+.labels{
+	font-family:'helvetica', sans-serif;
+	font-size:6px;
+
+}
+
+/*-----------control--------------*/
+
+
+.btn{
+	border: solid rgb(48,55,67) 1px;
+	width: auto;
+	color:rgb(48,55,67) ;
+	padding:5px 5px 5px 5px;
+	font-family:sans-serif;
+	margin:3px 3px 3px 3px;
+
+
+}
+
+.btn:hover{
+	background-color:rgb(208,215,227);
+	text-decoration:none;
+}
+
+.btn:active{
+	background-color:rgb(48,55,67);
+	color:rgb(254,254,254);
+	text-decoration:none;
+}
+
+.btn:focus{
+	background-color:rgb(48,55,67);
+	color:rgb(254,254,254);
+	text-decoration:none;
+	outline:none;
+}
+
+h2{
+	font-family: Helvetica;
+
+}
+
+
+
+
+.btn{
+	position:relative;
+	float:right;
+	margin-top:1%;
+	text-decoration:none;
+}
+
+
+
+	.wrapper div {
+		margin: 35px 0;
+	}
+
+    .wrapper {
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #slider7 {
+    	height: 250px;
+    }
+
+.d3-slider {
+    position: relative;
+
+    border: 1px solid #aaaaaa;
+    z-index: 2;
+    margin-top:40px;
+}
+
+.d3-slider-horizontal {
+    height: .5em;
+}  
+
+/*.d3-slider-vertical {
+    width: .5em;
+    height: 1.6em;
+}   */   
+
+.d3-slider-handle {
+    position: absolute;
+    width: 1.6em;
+    height: 1.6em;
+    border: 3px solid white;
+    background: rgb(78,78,78);
+    z-index: 3;
+}
+
+.d3-slider-handle:hover {
+    background: rgb(138,138,138);
+}
+
+.d3-slider-horizontal .d3-slider-handle {
+    top: -.7em;
+    margin-left: -.6em;
+}
+
+.d3-slider-axis {
+    position: relative;
+    z-index: 1;    
+}
+
+.d3-slider-axis-bottom {
+    top: .8em;
+}
+
+.d3-slider-axis-right {
+    left: .8em;
+}
+
+.d3-slider-axis path {
+    stroke-width: 0;
+    fill: none;
+}
+
+.d3-slider-axis line {
+    fill: none;
+    stroke: #aaa;
+    shape-rendering: crispEdges;
+}
+
+.d3-slider-axis text {
+    font-size: 11px;
+}
+
+.d3-slider-vertical .d3-slider-handle {
+    left: -.25em;
+    margin-left: 0;
+    margin-bottom: -.6em;      
+}
