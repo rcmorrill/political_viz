@@ -18,7 +18,7 @@ var plot = d3.select('.canvas')
 
 
 
-d3.csv('data/HSall_members.csv',parse,dataLoaded);
+d3.csv('data/HSall_members_new.csv',parse,dataLoaded);
 
 scaleX = d3.scale.linear().domain([-1,1]).range([0,width]);
 scaleY = d3.scale.linear().domain([-1,1]).range([height*.9,height*.1]);
@@ -46,12 +46,24 @@ var byCongress = d3.nest()
 d3.select('#slider3').call(d3.slider()
     .value(1)
     .min(1)
-    .max(115)
+    .max(119)
     .step(1)
+    // .on("slide", function(evt, value) {
+    //     d3.select('#slider3text')
+    //     .text(value);
+    //     draw(value)
+
+
     .on("slide", function(evt, value) {
+
+        // grab "years" from first row of this congress
+        var years = byCongress.get(value)[0].years;
+
+        // update header with both congress # and years
         d3.select('#slider3text')
-        .text(value);
-        draw(value)
+          .text(years);
+
+        draw(value);
     })
 );
 
@@ -240,6 +252,7 @@ function parse(d){
     party: d.party_code,
     score: +d.dim1,
     score2: +d.dim2,
+    years: d.years
   }
 }
 
